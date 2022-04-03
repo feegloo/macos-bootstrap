@@ -10,6 +10,9 @@ touch ~/.hushlogin
 # https://brew.sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# install vim
+brew install vim
+
 # install middleclick (tap 3 fingers to open tabs)
 # https://github.com/artginzburg/MiddleClick-BigSur
 brew install --cask --no-quarantine middleclick
