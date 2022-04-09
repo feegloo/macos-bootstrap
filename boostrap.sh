@@ -19,3 +19,6 @@ brew install vim
 brew install --cask --no-quarantine middleclick
 # Make it open automatically when you log in
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/MiddleClick.app", hidden:true}'
+
+# mute macOS startup "chime"
+# https://github.com/matteoacrossi/nobootsound
