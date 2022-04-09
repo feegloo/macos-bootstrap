@@ -1,3 +1,4 @@
+# one-time run
 echo "macOS bootstrap"
 
 # terminal: change zhs to bash
