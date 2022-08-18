@@ -20,5 +20,8 @@ brew install --cask --no-quarantine middleclick
 # Make it open automatically when you log in
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/MiddleClick.app", hidden:true}'
 
-# mute macOS startup "chime"
+# mute macOS startup "chime" sound
 # https://github.com/matteoacrossi/nobootsound
+
+# disable the automatic creation of .DS_Store file
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true 

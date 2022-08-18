@@ -16,7 +16,5 @@ sudo nvram SystemAudioVolume=%01            # disable boot sound
                                             # https://brew.sh/index_pl
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-sudo pmset standby 0                        # fixes problems with non-original SSD on macOS (kernel crash with "IONVMcontroller" message)
-
 # customize MacOS
 # https://medium.com/swlh/top-mac-os-default-behaviors-you-should-consider-changing-419b679fe290
