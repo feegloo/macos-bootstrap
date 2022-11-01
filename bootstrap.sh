@@ -10,3 +10,8 @@ touch ~/.hushlogin
 # install homebrew
 # https://brew.sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# install python
+brew install python
+brew install pip
+echo "alias python=/usr/bin/python3" >> ~/.bash_profile
