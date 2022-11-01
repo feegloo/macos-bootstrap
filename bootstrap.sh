@@ -13,5 +13,8 @@ touch ~/.hushlogin
 
 # install python
 brew install python
-brew install pip
 echo "alias python=/usr/bin/python3" >> ~/.bash_profile
+
+# install pip
+brew install pip
+echo "alias pip=/usr/bin/pip3" >> ~/.bash_profile
