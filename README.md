@@ -3,6 +3,10 @@ curl -s https://raw.githubusercontent.com/feegloo/macos-bootstrap/main/bootstrap
 ```
 
 ```
+curl -s https://raw.githubusercontent.com/feegloo/macos-bootstrap/main/.bash_aliases >> ~/.bash_aliases
+```
+
+```
 curl -s https://raw.githubusercontent.com/feegloo/macos-bootstrap/main/.bash_profile >> ~/.bash_profile && . ~/.bash_profile
 ```
 
