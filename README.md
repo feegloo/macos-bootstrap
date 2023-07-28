@@ -14,7 +14,7 @@ curl -s https://raw.githubusercontent.com/feegloo/macos-bootstrap/main/.bash_pro
 curl -s https://raw.githubusercontent.com/feegloo/macos-bootstrap/main/.vimrc >> ~/.vimrc
 ```
 
-Apps:
+## Apps
 
 Middle Click
 https://middleclick.app/downloads/Middle1.8.dmg
