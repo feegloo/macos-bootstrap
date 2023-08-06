@@ -1,7 +1,7 @@
 # one-time run
 echo "macOS bootstrap"
 
-# terminal: change zhs to bash
+# terminal: change zsh to bash
 chsh -s /bin/bash
 
 # terminal - hide 'last login'
@@ -11,10 +11,6 @@ touch ~/.hushlogin
 # https://brew.sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# install python
-brew install python
-echo "alias python=/usr/bin/python3" >> ~/.bash_profile
-
-# install pip
-brew install pip
-echo "alias pip=/usr/bin/pip3" >> ~/.bash_profile
+# Run these two commands in your terminal to add Homebrew to your PATH:
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.bash_profile
+eval "$(/opt/homebrew/bin/brew shellenv)"
