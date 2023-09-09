@@ -1,5 +1,8 @@
 # based on:
+#
 # https://macos-defaults.com/
+# https://github.com/ptb/mac-setup/blob/develop/mac-setup.command
+# https://github.com/mathiasbynens/dotfiles/blob/main/.macos
 
 # mkdir macos-bootstrap
 # touch macos-bootstrap.sh
@@ -49,6 +52,14 @@ sudo -v
 
 
 ########################
+# Download Apps        #
+########################
+
+# TODO: how to download googlechrome.dmg from below link ?
+#https://www.google.com/intl/pl/chrome/next-steps.html?statcb=0&installdataindex=empty&defaultbrowser=0#
+
+
+########################
 # Dock                 #
 ########################
 
@@ -82,13 +93,6 @@ _dock_custom_apps
 # apply changes to Dock
 killall Dock
 
-
-########################
-# Download Apps        #
-########################
-
-# TODO: how to download googlechrome.dmg from below link ?
-#https://www.google.com/intl/pl/chrome/next-steps.html?statcb=0&installdataindex=empty&defaultbrowser=0#
 
 ########################
 # System updates       #
