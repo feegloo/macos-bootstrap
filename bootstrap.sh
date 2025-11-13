@@ -1,14 +1,14 @@
 # one-time run
 echo "macOS bootstrap"
 
-# install HomeBrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 # terminal: change zsh to bash
 chsh -s /bin/bash
 
 # terminal - hide 'last login'
 touch ~/.hushlogin
+
+# suppresses the zsh reminder message
+echo 'export BASH_SILENCE_DEPRECATION_WARNING=1' >> ~/.bash_profile
 
 # install homebrew
 # https://brew.sh
