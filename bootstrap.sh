@@ -1,6 +1,9 @@
 # one-time run
 echo "macOS bootstrap"
 
+# install HomeBrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # terminal: change zsh to bash
 chsh -s /bin/bash
 
